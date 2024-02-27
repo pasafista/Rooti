@@ -59,20 +59,20 @@ p {
 }
 
 
-button{
+button {
     cursor: pointer;
     font-size: 2rem;
     border: none;
     outline: none;
 }
 
-.btn-row{
+.btn-row {
     display: flex;
     align-items: center;
     gap: 1em;
 }
 
-footer{
+footer {
     display: flex;
     gap: 2em;
     max-width: 100%;
@@ -81,48 +81,49 @@ footer{
 
 }
 
-.biggie{
+.biggie {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-size: 2rem;
 }
 
-.timer{
+.timer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-i{
+i {
     font-size: 1.4rem;
 }
 
-.zero{
+.zero {
     font-size: 2rem;
 }
 
-.email{
+.email {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     border-radius: 0;
     margin: auto;
 }
 
-.email input{
-border: none;
-width: 100%;
-padding: 10px;
-text-align: center;
+.email input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
-.email i{
+.email i {
     color: grey;
     font-weight: 100;
     position: absolute;
-}* {
+}
+
+* {
     font-family: "Montserrat Alternates", sans-serif;
     margin: 0;
     padding: 0;
@@ -183,25 +184,25 @@ p {
 }
 
 
-button{
+button {
     cursor: pointer;
     font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5em; 
-    position: relative; 
+    gap: 0.5em;
+    position: relative;
     border: none;
     outline: none;
 }
 
-.btn-row{
+.btn-row {
     display: flex;
     align-items: center;
     gap: 1em;
 }
 
-footer{
+footer {
     display: flex;
     gap: 2em;
     max-width: 100%;
@@ -210,57 +211,57 @@ footer{
 
 }
 
-.biggie{
+.biggie {
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-size: 2rem;
 }
 
-.timer{
+.timer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.zero{
+.zero {
     font-size: 2rem;
 }
 
-.email{
+.email {
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
     border-radius: 0;
-    width: 40%; 
-    position: relative; 
+    width: 40%;
+    position: relative;
     margin: auto;
 }
 
-.email input{
-border: none;
-width: 100%;
-padding: 10px;
-text-align: center;
+.email input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
 
-.email i{
+.email i {
     color: grey;
     font-weight: 100;
     font-size: 1.4rem;
     position: absolute;
 }
 
-.email_btn{
-    position: absolute; 
-    top: 0; 
-    border-radius: 5px; 
-    right: 0px; 
-    z-index: 2; 
-    border: none; 
-    top: 2px; 
-    height: 30px; 
-    cursor: pointer; 
-    transform: translateX(2px); 
+.email_btn {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    transform: translateX(2px);
 }
