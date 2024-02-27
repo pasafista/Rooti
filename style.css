@@ -35,135 +35,6 @@ h1 {
     font-size: 1rem;
     color: #4d4d4d;
     margin-bottom: -1em;
-}
-
-h2 {
-    font-size: 5rem;
-    font-family: "Kanit", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
-
-p {
-    font-family: "Montserrat Alternates", sans-serif;
-    color: #333333;
-}
-
-.btn {
-    background-color: #FFEE00;
-    border-radius: 25px;
-    padding: 1em;
-    font-size: 1rem;
-    border: none;
-    outline: none;
-}
-
-
-button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: none;
-    outline: none;
-}
-
-.btn-row {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-}
-
-image{
-   max-width: 100%; 
-}
-
-footer {
-    display: flex;
-    gap: 2em;
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.biggie {
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-}
-
-.timer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-i {
-    font-size: 1.4rem;
-}
-
-.zero {
-    font-size: 2rem;
-}
-
-.email {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0;
-    margin: auto;
-}
-
-.email input {
-    border: none;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-}
-
-.email i {
-    color: grey;
-    font-weight: 100;
-    position: absolute;
-}
-
-* {
-    font-family: "Montserrat Alternates", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgba(245, 245, 245, 255);
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em 2em;
-}
-
-.logo {
-    font-family: "Kanit", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-    font-size: 2rem;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-h1 {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 1rem;
-    color: #4d4d4d;
-    margin-bottom: -1em;
     max-width: 100%;
     min-width: 50%;
 }
@@ -186,7 +57,7 @@ p {
     min-width: 50%;
 }
 
-image{
+image {
     max-width: 100%;
     min-width: 50%;
 }
@@ -211,6 +82,7 @@ button {
     position: relative;
     border: none;
     outline: none;
+    background-color: transparent;
 }
 
 .btn-row {
@@ -257,11 +129,12 @@ footer {
 
 .email input {
     border: none;
-    max-width: 50%;
+    max-width: 60%;
     padding: 20px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+
 
 .email i {
     color: grey;
@@ -277,31 +150,45 @@ footer {
     outline: none;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    right: 0px;
-    z-index: 2;
     height: 54px;
     padding: 20px;
     cursor: pointer;
-    transform: translateX(2px);
 }
 
 @media all and (max-width: 769px) {
- main{
-    display: flex;
-    flex-direction: column;
- }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 
- body{
-    padding: 2em;
- }
+    body {
+        padding: 1em;
+    }
 
- h2{
-    width: 100;
- }
+    h2 {
+        width: 100;
+    }
 
- .email{
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
+    .email {
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 382px) {
+nav{
+    padding: 0;
+}
+
+    .email {
+        font-size: 1rem;
+        max-width: 100%;
+    }
 }
