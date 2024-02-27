@@ -1,0 +1,249 @@
+* {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 255);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.logo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    color: #4d4d4d;
+    margin-bottom: -1em;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+p {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #333333;
+}
+
+.btn {
+    background-color: #FFEE00;
+    border-radius: 25px;
+    padding: 1em;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+}
+
+.btn-row{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+footer{
+    display: flex;
+    gap: 2em;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.biggie{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    font-size: 1.4rem;
+}
+
+.zero{
+    font-size: 2rem;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 0;
+    margin: auto;
+}
+
+.email input{
+border: none;
+width: 100%;
+padding: 10px;
+text-align: center;
+}
+
+.email i{
+    color: grey;
+    font-weight: 100;
+    position: absolute;
+}* {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 255);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.logo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    color: #4d4d4d;
+    margin-bottom: -1em;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+p {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #333333;
+}
+
+.btn {
+    background-color: #FFEE00;
+    border-radius: 25px;
+    padding: 1em;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+}
+
+.btn-row{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+footer{
+    display: flex;
+    gap: 2em;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.biggie{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+    font-size: 1.4rem;
+}
+
+.zero{
+    font-size: 2rem;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 0;
+    margin: auto;
+}
+
+.email input{
+border: none;
+width: 100%;
+padding: 10px;
+text-align: center;
+}
+
+.email i{
+    color: grey;
+    font-weight: 100;
+    position: absolute;
+}
