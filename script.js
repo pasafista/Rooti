@@ -1,4 +1,4 @@
-<script>
+
     var countDownDate = new Date();
     countDownDate.setDate(countDownDate.getDate() + 3);
 
@@ -25,5 +25,5 @@
     function formatTime(time) {
         return time < 10 ? "0" + time : time;
     }
-</script>
+
 
