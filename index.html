@@ -1,97 +1,307 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Rotimi">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-        rel="stylesheet">
+body {
+    background-color: rgba(245, 245, 245, 255);
+}
 
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Roti</title>
-</head>
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
 
-<body>
-    <nav>
-        <div class="logo">
-            Roti
-        </div>
+.logo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+}
 
-        <div class="btn-row">
-            <div>
-                <button><i class='bx bxl-tiktok'></i></button>
-            </div>
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
-            <div>
-                <button><i class='bx bxl-snapchat'></i></button>
-            </div>
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    color: #4d4d4d;
+    margin-bottom: -1em;
+}
 
-            <div>
-                <button><i class='bx bxl-instagram'></i></button>
-            </div>
+h2 {
+    font-size: 5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
 
-            <button class="btn"><i class='bx bx-dollar-circle'></i> Donate</button>
-        </div>
-    </nav>
+p {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #333333;
+}
 
-    <main>
-        <div class="image-block">
-            <img src="Premium PSD _ Realistic floating smartphone mockup.jpg" alt="">
-        </div>
-        
-        <div class="text-block">
-            <h1>Get a free phone now</h1>
+.btn {
+    background-color: #FFEE00;
+    border-radius: 25px;
+    padding: 1em;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
 
-            <h2>Welcome to Roti</h2>
-            <p>
-                Your destination for affordable <span>smartphones</span> and plans
-                that won't break the bank. We offer unbeatable prices on a wide selection of smartphones and plans to
-                fit every budget.<br>
-                Don't miss out on our exclusive giveaway event, this event will last until the timer stops
 
-            <div class="email">
-                <!-- 
-                    <i class='bx bx-envelope'></i> 
-                
-                i wanted to use this icon in the input bar but i was not able to just ignore it, imma COOK later-->
+button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+}
 
-                <input type="email" name="" placeholder=" Enter your email address">
-                <button type="submit" class="email_btn">Send</button>
-            </div>
-            </p>
+.btn-row {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
 
-        </div>
-    </main>
+image{
+   max-width: 100%; 
+}
 
-    <footer>
+footer {
+    display: flex;
+    gap: 2em;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
 
-        <div class="timer">
-            <div class="zero">00</div>
-            <div class="biggie">Days</div>
-        </div>
+}
 
-        <div class="timer">
-            <div class="zero">00</div>
-            <div class="biggie">Hours</div>
-        </div>
+.biggie {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
 
-        <div class="timer">
-            <div class="zero">00</div>
-            <div class="biggie">Minutes</div>
-        </div>
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-        <div class="timer">
-            <div class="zero">00</div>
-            <div class="biggie">Seconds</div>
-        </div>
+i {
+    font-size: 1.4rem;
+}
 
-    </footer>
+.zero {
+    font-size: 2rem;
+}
 
-</body>
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    margin: auto;
+}
 
-</html>
+.email input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.email i {
+    color: grey;
+    font-weight: 100;
+    position: absolute;
+}
+
+* {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 255);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.logo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    color: #4d4d4d;
+    margin-bottom: -1em;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: clamp(2rem, 4rem, 5rem);
+    max-width: 100%;
+    min-width: 50%;
+}
+
+p {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #333333;
+    margin-bottom: 2em;
+    font-size: clamp(1rem, 1rem, 1rem);
+    max-width: 100%;
+    min-width: 50%;
+}
+
+image{
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.btn {
+    background-color: #FFEE00;
+    border-radius: 25px;
+    padding: 1em;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+button {
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.btn-row {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+footer {
+    display: flex;
+    gap: 2em;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.biggie {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zero {
+    font-size: 2rem;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 0;
+    max-width: 100%;
+    position: relative;
+    border-radius: 25px;
+}
+
+.email input {
+    border: none;
+    max-width: 50%;
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.email i {
+    color: grey;
+    font-weight: 100;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.email_btn {
+    background-color: #FFEE00;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    right: 0px;
+    z-index: 2;
+    height: 54px;
+    padding: 20px;
+    cursor: pointer;
+    transform: translateX(2px);
+}
+
+@media all and (max-width: 769px) {
+ main{
+    display: flex;
+    flex-direction: column;
+ }
+
+ body{
+    padding: 2em;
+ }
+
+ h2{
+    width: 100;
+ }
+
+ .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+}
