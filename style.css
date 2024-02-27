@@ -186,6 +186,11 @@ p {
 button{
     cursor: pointer;
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em; 
+    position: relative; 
     border: none;
     outline: none;
 }
@@ -218,10 +223,6 @@ footer{
     justify-content: center;
 }
 
-i{
-    font-size: 1.4rem;
-}
-
 .zero{
     font-size: 2rem;
 }
@@ -232,6 +233,8 @@ i{
     justify-content: center;
     border: 1px solid black;
     border-radius: 0;
+    width: 40%; 
+    position: relative; 
     margin: auto;
 }
 
@@ -245,5 +248,19 @@ text-align: center;
 .email i{
     color: grey;
     font-weight: 100;
+    font-size: 1.4rem;
     position: absolute;
+}
+
+.email_btn{
+    position: absolute; 
+    top: 0; 
+    border-radius: 5px; 
+    right: 0px; 
+    z-index: 2; 
+    border: none; 
+    top: 2px; 
+    height: 30px; 
+    cursor: pointer; 
+    transform: translateX(2px); 
 }
