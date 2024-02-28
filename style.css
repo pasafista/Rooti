@@ -18,7 +18,7 @@ nav {
 }
 
 .logo {
-    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: 2rem;
@@ -32,7 +32,7 @@ main {
 }
 
 h1 {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     color: #4d4d4d;
     margin-bottom: -1em;
@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: clamp(2rem, 4rem, 5rem);
@@ -50,7 +50,7 @@ h2 {
 }
 
 p {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #333333;
     margin-bottom: 2em;
     font-size: clamp(1rem, 1rem, 1rem);
@@ -102,7 +102,7 @@ footer {
 }
 
 .biggie {
-    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 2rem;
 }
