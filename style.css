@@ -1,5 +1,5 @@
 * {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +7,7 @@
 
 body {
     background-color: rgba(245, 245, 245, 255);
+    overflow-x: hidden;
 }
 
 nav {
@@ -63,7 +64,7 @@ image {
 }
 
 .btn {
-    background-color: #FFEE00;
+    background-color: #54ff05;
     border-radius: 25px;
     padding: 1em;
     font-size: 1rem;
@@ -144,7 +145,7 @@ footer {
 }
 
 .email_btn {
-    background-color: #FFEE00;
+    background-color: #54ff05;
     font-size: 1rem;
     border: none;
     outline: none;
@@ -183,9 +184,9 @@ footer {
 }
 
 @media screen and (max-width: 382px) {
-nav{
-    padding: 0;
-}
+    nav {
+        padding: 0;
+    }
 
     .email {
         font-size: 1rem;
