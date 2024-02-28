@@ -1,5 +1,5 @@
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +18,8 @@ nav {
 }
 
 .logo {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
+    font-family: "Quicksand", sans-serif;
+            font-weight: 700;
     font-style: italic;
     font-size: 2rem;
 }
@@ -32,7 +32,7 @@ main {
 }
 
 h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 1rem;
     color: #4d4d4d;
     margin-bottom: -1em;
@@ -41,16 +41,15 @@ h1 {
 }
 
 h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
     font-size: clamp(2rem, 4rem, 5rem);
     max-width: 100%;
     min-width: 50%;
 }
 
 p {
-    font-family: "Poppins", sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: #333333;
     margin-bottom: 2em;
     font-size: clamp(1rem, 1rem, 1rem);
